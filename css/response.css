@@ -189,7 +189,11 @@
         width: 60px;
         height: 90px;
 
-        top: -40px;
+        top: -50px;
+    }
+
+    .arrows{
+        top: -50px;
     }
 }
 
