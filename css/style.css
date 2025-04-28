@@ -322,7 +322,7 @@ video {
     width: 150px;
     height: 220px;
     position: absolute;
-    bottom: 50px;
+    /* bottom: 50px; */
     left: 50%;
     border-radius: 30px;
     animation: showMainImage 0.5s linear forwards;
