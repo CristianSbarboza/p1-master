@@ -1,3 +1,5 @@
+*{border: solid 1px black;}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -226,6 +228,10 @@ video {
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
+}
+
+.arrows{
+    z-index: 99999;
 }
 
 #container-project .thumb .thumb-item h3 {
