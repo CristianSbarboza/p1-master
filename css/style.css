@@ -1,3 +1,5 @@
+*{border: solid 1px black;}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -228,6 +230,10 @@ video {
     border-radius: 10px;
 }
 
+.arrows{
+    z-index: 99999;
+}
+
 #container-project .thumb .thumb-item h3 {
     position: absolute;
     bottom: 10px;
@@ -318,7 +324,7 @@ video {
     width: 150px;
     height: 220px;
     position: absolute;
-    bottom: 50px;
+    /* bottom: 50px; */
     left: 50%;
     border-radius: 30px;
     animation: showMainImage 0.5s linear forwards;
