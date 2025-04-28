@@ -142,9 +142,16 @@
         display: none;
     }
 
+    /* .arrows, .thumb{
+        
+    } */
+
     #container-project .arrows{
-        width: 100%;
+        font-size: 0.5rem;
+        width: 80%;
         margin-left: 20px;
+
+        
     }
 
     #container-project .arrows button {
@@ -155,6 +162,10 @@
 
     #container-logo-social img {
         width: 40px;
+    }
+
+    #text-contact p{
+        font-size: 0.8rem;
     }
     footer div {
         flex-direction: column;
@@ -172,6 +183,13 @@
 
     #topics-about-us div label{
         font-size: 0.8rem;
+    }
+
+    #container-project .thumb .thumb-item{
+        width: 60px;
+        height: 90px;
+
+        top: -40px;
     }
 }
 

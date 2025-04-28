@@ -243,6 +243,8 @@ video {
     bottom: 150px;
     left: 120px;
     width: 300px;
+
+    z-index: 99;
 }
 
 #container-project .arrows button {
